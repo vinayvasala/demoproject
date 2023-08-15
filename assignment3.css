@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+body
+{
+    /* background-color: gray; */
+}
+div
+{
+    background-color: white;
+    padding: 20px;
+}
+
+
+div ul
+{
+    /* border: 3px solid red; */
+    display: inline-block;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+div ul li
+{
+    display: inline;
+    margin: 20px;
+
+    
+}
+
+div .medicio
+{
+    margin-left: 100px;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+div a
+{
+    text-decoration: none;
+    color: gray;
+}
+
+div .btn
+{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+section.img
+{
+    background-image: url("https://cdn.pixabay.com/photo/2015/02/26/15/40/doctor-650534_640.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: local;
+    height: 700px;
+    padding-top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.img .wtm
+{
+    /* border: 5px solid red; */
+    border-top: 4px solid aqua;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: white;
+    
+
+}
+
+.img .wtm a
+{
+    background-color: aqua;
+    padding: 1px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.img .wtm p
+{
+    padding: 20px;
+}
+
+
+
+
